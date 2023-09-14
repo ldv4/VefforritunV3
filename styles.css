@@ -1,0 +1,138 @@
+/* Setjum inn „reset“ sem fjarlægir margin og padding af öllu */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+  }
+  
+  /* Reiknum stærð á öllum boxum sem border-box */
+  html {
+    box-sizing: border-box;
+  }
+  /* og látum erfast á allt */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* hjálpar class sem felur sjónrænt en skjálesarar lesa */
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+header{
+    background-color: #2f0505;
+    text-align: center;
+    border-bottom: 0.5rem #ffe7ae solid;
+    
+}
+
+footer{
+    background-color: #2f0505;
+    padding-top: 1em;
+    color: #ffe7ae;
+    text-align: center;
+    border-top:0.5rem #ffe7ae solid;
+}
+
+.menu-link{
+  text-align: center;
+  background-color: #fff9ee;
+  color:#2f0505;
+}
+
+header h1{
+    color:#ffe7ae;
+    padding: 1rem;
+}
+
+tbody > tr > td {
+  padding: 0.5rem;
+}
+
+thead > tr > th{
+  padding: 1rem;
+}
+
+tbody{
+  text-align:left;
+  border:0px;
+}
+
+tbody> tr:nth-child(odd){
+  background-color: #ffe7ae;
+}
+
+table{
+  border-spacing:0px;
+}
+
+header > nav > p > a{
+  color: #ffe7ae;
+}
+
+header > p {
+  color: #ffe7ae;
+}
+
+header > p > a{
+  color: #ffe7ae;
+}
+
+a{
+  color: #2f0505;
+}
+
+footer > ul > li >a{
+  color: #ffe7ae;
+
+}
+
+footer > ul > li {
+  color: #ffe7ae;
+  display:block;
+}
+
+footer > dl > dt {
+  font-weight:bold;
+}
+
+fieldset {
+  border-color: #ffe7ae;
+  border-width: 0.2rem;
+}
+
+fieldset > legend{
+  font-weight:bold;
+  color: #2f0505;
+}
+fieldset > label {
+  color: #2f0505;
+}
+fieldset > div{
+  color: #2f0505;
+}
+
+li {
+  display:inline;
+  color: #2f0505;
+  padding: 0.5rem;
+}
+
+nav > ul{
+  text-align: center;
+  padding: 1rem;
+  background-color:#fff9ee;
+}
+
+fieldset > select{
+  width: 50%;
+  padding-top: 0.5rem;
+}
